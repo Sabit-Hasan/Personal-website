@@ -129,22 +129,27 @@ img{
     text-align: center;
 }
 
-.moving-section{
-    position: absolute;
-    height: auto;
-    width: 100%;
-    top: 35%;
+.work-inquiry{
+    background-image: url("images/Group_33094_1.png");
+    height: 210px;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.text{
-    margin-left: 15%;
-    float: left;
-    padding-right: 30%;
+.inner-section{
+    height: 300px;
     color: white;
 }
 
-.moving-section .button{
+.left{
     float: left;
+    padding: 70px 21%;
+}
+
+.right{
+    float: left;
+    padding-top: 70px;
 }
 
 .contact{
