@@ -169,13 +169,8 @@ button:hover{
 .work-inquiry{
     background-image: url("images/Group_33094_1.png");
     height: 210px;
-    background-size: 65%;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-}
-
-.inner-section{
-    height: 300px;
     color: white;
 }
 
