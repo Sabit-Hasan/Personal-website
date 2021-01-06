@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    height: 60px;
+}
+
+.header .menu ul{
+    padding-top: 20px;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.header .menu li{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.header .menu li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.header .menu li a:hover{
+    border-bottom: 2px solid black;
+}
+
+.name-section{
+    height: 500px;
+    margin-bottom: 150px;
+}
+
+.half-width{
+    width: 38%;
+    margin-left: 8%;
+    float: left;
+}
+
+#text-side{
+    padding-top: 12%;
+}
+
+h1{
+    font-size: 45px;
+}
+
+p{
+    opacity: .75;
+}
+
+.text-color{
+    color: #ff0000;
+}
+
+button{
+    background-image: linear-gradient(30deg, #ff0000, yellow);
+    border: none;
+    border-radius: 5px;
+    padding: 12px 40px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+button:hover{
+    background: rgba(128, 128, 128, 0.418)
+}
+
+img{
+    width: 80%;
+}
+
+.about-section{
+    height: 500px;
+    margin-bottom: 150px;
+}
+
+.text-center{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.latest-project{
+    height: 700px;
+    background-color:rgba(135, 207, 235, 0.123);
+    margin-bottom: 110px;
+}
+
+.card-section{
+    margin-left: 5%;
+    padding-top: 60px;
+}
+
+.card{
+    width: 28%;
+    float: left;
+    margin-left: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    height: 380px;
+    background-color: white;
+}
+
+.card img{
+    width: 90%;
+    margin: 5%;
+
+}
+
+.container{
+    padding: 2px 16px;
+}
+
+.work-inquiry{
+    height: auto;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.moving-section{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    top: 35%;
+}
+
+.text{
+    margin-left: 15%;
+    float: left;
+    padding-right: 30%;
+    color: white;
+}
+
+.moving-section .button{
+    float: left;
+}
+
+.contact{
+    height: 300px;
+}
+
+h2{
+    opacity: .75;
+}
+
+.mail{
+    color: black;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.icon{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.icon li img{
+    width: 36px;
+    height: 36px;
+}
+
+.icon li{
+    display: inline-block;
+    padding-right: 20px;
+}
