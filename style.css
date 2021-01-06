@@ -77,8 +77,9 @@ button:hover{
     background: rgba(128, 128, 128, 0.418)
 }
 
-img{
-    width: 80%;
+.half-width img{
+    width: 100%;
+    padding-top: 60px;
 }
 
 .about-section{
@@ -94,7 +95,6 @@ img{
 .latest-project{
     height: 700px;
     background-color:rgba(135, 207, 235, 0.123);
-    margin-bottom: 110px;
 }
 
 .card-section{
@@ -122,11 +122,48 @@ img{
     padding: 2px 16px;
 }
 
+.client{
+    text-align: center;
+    width: 65%;
+    margin: 50px auto;
+    height: 280px;
+}
+
+.client-text{
+    margin-top: 20px;
+}
+
+.review{
+    padding-top: 30px;
+}
+
+.profile{
+    display: inline-block;
+    background-color: #f1f1f1;
+    height: 70px;
+    width: 180px;
+    border-radius: 30px;
+    padding: 0 16px;
+    margin-top: 20px;
+    line-height: 70px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 5px 0 -25px;
+}
+
 .work-inquiry{
     height: auto;
     width: 100%;
     position: relative;
     text-align: center;
+    margin-top: 100px;
 }
 
 .work-inquiry{
